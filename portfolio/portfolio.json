@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "projectTile":"The Movie Match Maker",
+        "image":"#",
+        "use":"A collaborative project that combines the user favourite movie with their favourite drink",
+        "tools":["javaScript","html","css"]
+
+    },
+
+    {
+        "id":2,
+        "projectTile":"E-commerce",
+        "image":"#",
+        "use":"An application that where user can search for their favouirte clothes online",
+        "tools":["node.js","MySql","javaScript"]
+
+    },
+
+    {
+        "id":3,
+        "projectTile":"lifeStyle-Budget",
+        "image":"#",
+        "use":"A user can track money spent or invested",
+        "tools":["node.js","javaScript"]
+
+    },
+
+    {
+        "id":4,
+        "projectTile":"Employee-Profile",
+        "image":"#",
+        "use":"Manger to gain access to employee basic information",
+        "tools":["node.js"]
+
+    }
+]
