@@ -5,7 +5,7 @@ function About(props) {
 
       
 
-    <div className = "profile bg-secondary">
+    <div className = "profile bg-primary" style={{color:"goldenrod", backgroundColor:"rgb(25,25,112)"}}>
         {props.children}
     </div>
 
