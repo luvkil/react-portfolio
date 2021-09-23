@@ -1,11 +1,12 @@
 import React  from "react";
 import friends from "../friends.json";
+import Wrapper from "../components/pages/Wrapper";
 import FriendCard from "../components/pages/Blog";
 import Title from "../components/pages/Title";
 
 function blogPage (){
     return(
-        <wrapper>
+        <Wrapper>
     
       <Title>Friends List</Title>
       <FriendCard
@@ -27,7 +28,7 @@ function blogPage (){
         location={friends[2].location}
       />
 
-        </wrapper>
+        </Wrapper>
     )
 }
 

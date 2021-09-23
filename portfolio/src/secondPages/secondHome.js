@@ -1,14 +1,14 @@
 
 import React from "react";
 import About from "../components/pages/About.js";
-import profileImage from "../components/images/profile-image.jpg"
-
+import profileImage from "../components/images/profile-image.jpg";
+import "../components/style.css";
 
 function secondHome() {
   return (
     <About>
           <div>
-          <img src={profileImage} alt="profile"/>
+          <img src={profileImage} className="image-2" alt="profile"/>
           
           </div>
     

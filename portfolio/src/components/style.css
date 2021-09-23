@@ -56,7 +56,8 @@
 }
 
 
-.wrapper {
+
+  .wrapper {
   padding-top: 50px;
   background: #ECEFF1;
   height: 100%;
@@ -64,6 +65,11 @@
   flex-flow: row wrap;
   padding: 20px;
   justify-content: space-around;
-  align-content: flex-start;
+  align-content: flex-end;
   overflow: auto;
+}
+
+.image-2{
+    width: 200px;
+    height: 200px;
 }

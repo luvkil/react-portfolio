@@ -1,5 +1,4 @@
 import React from "react";
-import {Button, Alert} from "react-bootstrap";
 import "../style.css"
 
 function Home() {
