@@ -1,11 +1,11 @@
 import React from "react";
-;
+
 function About(props) {
   return (
 
       
 
-    <div className = "profile bg-primary" style={{color:"goldenrod", backgroundColor:"rgb(25,25,112)"}}>
+    <div className = "profile bg-primary">
         {props.children}
     </div>
 
