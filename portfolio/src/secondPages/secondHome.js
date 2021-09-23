@@ -7,7 +7,7 @@ import "../components/style.css";
 function secondHome() {
   return (
     <About>
-          <div>
+          <div className = "image-2-p">
           <img src={profileImage} className="image-2" alt="profile"/>
           
           </div>
@@ -17,9 +17,9 @@ function secondHome() {
 
       <div>
       <p>
-        I am currently a student at theWhile currently I have no previous experience as a software developer I have a passion for learning and solving problems. 
-        By solving problem I mean finding new ways to reach people and bring solution that was never thought of before. Besides going to school and working 
-        I have interest in designing and teaching others to actualize themselves
+        I am currently a student at UNCC where I study FULL STACK DEVELOPMENT. While currently I have no previous experience as a software developer, I have a passion and drive for life long learning and solving problems. 
+        By solving problem I mean finding new ways to reach people and converge ideas that was never thought of before. Besides going to school and working full time, 
+        I have interest in designing from scrach using photography tools and quantum physics / philosophy.
         
       </p>
       </div>

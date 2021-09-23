@@ -5,7 +5,7 @@ function About(props) {
 
       
 
-    <div className = "wrapper">
+    <div className = "profile bg-secondary">
         {props.children}
     </div>
 

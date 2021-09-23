@@ -13,10 +13,10 @@ function Blog(props) {
             <strong>Name:</strong> {props.name}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <strong>Theme:</strong> {props.theme}
           </li>
           <li>
-            <strong>Location:</strong> {props.location}
+            <strong>Tools</strong> {props.tools}
           </li>
         </ul>
       </div>
