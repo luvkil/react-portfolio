@@ -4,6 +4,7 @@ import Learn from "./Learn";
 
 function Contact(props) {
   return (
+    //pulling from contact page.js
     <div>
 
       <div className = "container border">
