@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+
 
 function NavTabs() {
   // We'll go into the Hooks API later, for now, we are just using some code
@@ -8,6 +10,19 @@ function NavTabs() {
   const location = useLocation();
 
   return (
+
+
+
+
+
+
+<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+
+
+
+
+<div>
+
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
@@ -47,7 +62,11 @@ function NavTabs() {
         </Link>
       </li>
     </ul>
+</div>
+    </nav>
   );
 }
+
+
 
 export default NavTabs;

@@ -2,7 +2,6 @@
     {
         "id":1,
         "projectTile":"The Movie Match Maker",
-        "image":"#",
         "use":"A collaborative project that combines the user favourite movie with their favourite drink",
         "tools":["javaScript","html","css"]
 

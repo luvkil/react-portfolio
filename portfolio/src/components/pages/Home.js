@@ -7,9 +7,14 @@ function Home() {
     
       
           
-      <div className ="image container " >
-          <h1 className = "second"> Welcome to my portfolio</h1>
+      <div className ="image container-fluid " >
+        <div className="second">
+              <h3> Aldaine Knight</h3>
+            <h1>Welcome To My Portfolio</h1>
+        </div>
+          
       </div>
+      
   
 
     </div>
