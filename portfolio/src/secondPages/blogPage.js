@@ -1,35 +1,68 @@
 import React  from "react";
-import projects from "../projects.json";
-import Wrapper from "../components/pages/Wrapper";
-import ProjectCard from "../components/pages/Blog";
+
+import Blog from "../components/pages/Blog";
 import Title from "../components/pages/Title";
+import {Carousel} from 'react-bootstrap';
+import  'bootstrap/dist/css/bootstrap.min.css';
+import Img1 from "../components/images/javascript-quiz.jpeg";
+import Img2 from "../components/images/daily-planner.jpeg";
+import Img3 from "../components/images/group-project.jpeg";
+import "../components/style.css";
 
 function blogPage (){
     return(
-        <Wrapper>
-    
-      <Title>My Projects</Title>
-      <ProjectCard
-        name={projects[0].name}
-        image={projects[0].image}
-        theme={projects[0].theme}
-        tools={projects[0].tools}
-      />
-      <ProjectCard
-        name={projects[1].name}
-        image={projects[1].image}
-        theme={projects[1].theme}
-        tools={projects[1].tools}
-      />
-      <ProjectCard
-        name={projects[2].name}
-        image={projects[2].image}
-        theme={projects[2].theme}
-        tools={projects[2].tools}
-      />
+      
+    <Blog>
+<Title>My Projects</Title>
 
-        </Wrapper>
+
+
+ 
+<div className="carousel">
+        
+<Carousel>
+  <Carousel.Item>
+    <img 
+      className=" blogImage"
+      src={Img1}
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3 style={{color:"goldenrod"}}>javaSript-Quiz</h3>
+      <p style={{color:"goldenrod"}}>Test your javaScript knowldeg</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img 
+      className="blogImage"
+      src={Img2}
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+      <h3 style={{color:"goldenrod"}}>The Daily Planner</h3>
+      <p style={{color:"goldenrod"}} >A planner for busy people.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img  
+      className="blogImage"
+      src={Img3}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3 style={{color:"goldenrod"}}>The Move Match Maker</h3>
+      <p style={{color:"goldenrod"}} >Combines Drink and Your favourite Movie.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+     </div>
+        
+  </Blog> 
+     
     )
+
 }
 
 export default blogPage;

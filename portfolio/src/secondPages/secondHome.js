@@ -6,8 +6,10 @@ import "../components/style.css";
 
 function secondHome() {
   return (
-    <About className="">
+    <About >
       <section className="profile">
+
+          <h2 style={{marginTop:"20px"}}> Short Biography</h2>
           <div className = "image-2-p">
           <img src={profileImage} className="image-2" alt="profile"/>
           

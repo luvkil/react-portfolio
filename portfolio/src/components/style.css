@@ -109,3 +109,14 @@ navbar{
   display: flex;
   justify-content: center;
 }
+
+.blogImage{
+  width: 500px;
+  height: 400px;
+}
+
+.carousel{
+  text-align: center;
+  color: goldenrod;
+
+}
