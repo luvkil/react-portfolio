@@ -1,11 +1,12 @@
 import React from "react";
+import "../style.css";
 
 function About(props) {
   return (
 
       
 
-    <div className = "profile bg-primary">
+    <div className = "container">
         {props.children}
     </div>
 

@@ -6,7 +6,8 @@ import "../components/style.css";
 
 function secondHome() {
   return (
-    <About>
+    <About className="">
+      <section className="profile">
           <div className = "image-2-p">
           <img src={profileImage} className="image-2" alt="profile"/>
           
@@ -23,7 +24,7 @@ function secondHome() {
         
       </p>
       </div>
-      
+    </section>
       
   </About>
   );
