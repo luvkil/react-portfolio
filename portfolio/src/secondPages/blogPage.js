@@ -11,7 +11,7 @@ function blogPage (){
       <Title>My Projects</Title>
       <FriendCard
         name={projects[0].name}
-        image={projects[0].image}
+        //image={projects[0].image}
         theme={projects[0].theme}
         tools={projects[0].tools}
       />

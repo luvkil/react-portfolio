@@ -4,8 +4,14 @@ import Learn from "./Learn";
 
 function Contact(props) {
   return (
-    <div className = "container border">
+    <div>
+
+      <div className = "container border">
         {props.children}
+      </div>
+
+      
+
     </div>
   );
 }

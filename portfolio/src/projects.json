@@ -2,15 +2,15 @@
   {
     "id": 1,
     "name": "Movie-Match-Maker",
-    "image":"./components/images/profile-image.jpg",
+    "image":"#",
     "theme": "A movie and drink app",
     "tools": "javaScript"
   },
   {
     "id": 2,
     "name": "javaScipt Quiz",
-    "image":"#",
-    "theme":"A mixture of movie and drink", 
+    "image":"./public/logo192.png",
+    "theme":"#", 
     "tools": "javaSript"
   },
   {

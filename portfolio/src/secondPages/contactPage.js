@@ -2,6 +2,8 @@ import React from "react";
 import Contact from "../components/pages/Contact.js";
 import "../components/style.css";
 import Email from 'emailjs-com';
+import { Link, Route } from "react-router-dom";
+import Learn from "../components/pages/Learn";
 
 
 
@@ -13,8 +15,9 @@ function sendEmail(e){
     }).catch(err=>console.log(err));
 }
 
-function contactPage(){
+function contactPage(props){
     return(
+    <div>
         <Contact>
             <div className="contact">
                 <h1 className="">Contact Here</h1>
@@ -33,6 +36,19 @@ function contactPage(){
             </div>
         
         </Contact>
+
+
+
+        <div>
+        <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
+          Learn More
+        </Link>{" "}
+        <Link to="/contact" role="button" className="btn btn-link">
+          Learn Less
+        </Link>
+        <Route exact path={`${props.match.url}/learn`} component={Learn} />
+      </div>
+     </div>   
     )
 }
 

@@ -1,5 +1,5 @@
 .image{
-    background-image: url("./images/blue-tech.jpg");
+    background-image: url("../components/images/blue-tech.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -89,7 +89,7 @@
 .contact{
     margin-top: 50px;
     width:50%;
-    background-image: url("./images/blue-tech.jpg");
+    background-image: url("../components/images/blue-tech.jpg");
     background-position: center;
     background-size: cover;
     color: goldenrod;
