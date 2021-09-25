@@ -7,7 +7,7 @@ function Contact(props) {
     //pulling from contact page.js
     <div>
 
-      <div className = "container border">
+      <div className = "container border" style={{textAlign:"center"}}>
         {props.children}
       </div>
 
